@@ -1,0 +1,32 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+@media (max-width: 1019px){
+@import "header320";
+@import "main320";
+@import "footer320";
+}
+
+
+@media (min-width: 1020px){
+@import "header";
+@import "footer";
+@import "main";
+body
+{
+	background-image: url(back/background.jpg);
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	height: 100%;
+}
+.wrapper
+{
+margin-top: 4vw;
+background: white;
+width: 60vw;
+}
+}
